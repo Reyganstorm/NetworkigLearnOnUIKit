@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		E82CBB4A27FEEFD4009D2021 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82CBB4927FEEFD4009D2021 /* AppDelegate.swift */; };
 		E82CBB4C27FEEFD4009D2021 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82CBB4B27FEEFD4009D2021 /* SceneDelegate.swift */; };
-		E82CBB4E27FEEFD4009D2021 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82CBB4D27FEEFD4009D2021 /* ViewController.swift */; };
 		E82CBB5127FEEFD4009D2021 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E82CBB4F27FEEFD4009D2021 /* Main.storyboard */; };
 		E82CBB5327FEEFD5009D2021 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E82CBB5227FEEFD5009D2021 /* Assets.xcassets */; };
 		E82CBB5627FEEFD5009D2021 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E82CBB5427FEEFD5009D2021 /* LaunchScreen.storyboard */; };
+		E82CBB5E27FEF116009D2021 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82CBB5D27FEF116009D2021 /* MainViewController.swift */; };
+		E82CBB6027FEF6C6009D2021 /* UserActionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82CBB5F27FEF6C6009D2021 /* UserActionCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E82CBB4627FEEFD4009D2021 /* NetworkigLearnOnUIKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetworkigLearnOnUIKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E82CBB4927FEEFD4009D2021 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E82CBB4B27FEEFD4009D2021 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E82CBB4D27FEEFD4009D2021 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E82CBB5027FEEFD4009D2021 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E82CBB5227FEEFD5009D2021 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E82CBB5527FEEFD5009D2021 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E82CBB5727FEEFD5009D2021 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E82CBB5D27FEF116009D2021 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		E82CBB5F27FEF6C6009D2021 /* UserActionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserActionCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +60,9 @@
 			children = (
 				E82CBB4927FEEFD4009D2021 /* AppDelegate.swift */,
 				E82CBB4B27FEEFD4009D2021 /* SceneDelegate.swift */,
-				E82CBB4D27FEEFD4009D2021 /* ViewController.swift */,
 				E82CBB4F27FEEFD4009D2021 /* Main.storyboard */,
+				E82CBB5D27FEF116009D2021 /* MainViewController.swift */,
+				E82CBB5F27FEF6C6009D2021 /* UserActionCell.swift */,
 				E82CBB5227FEEFD5009D2021 /* Assets.xcassets */,
 				E82CBB5427FEEFD5009D2021 /* LaunchScreen.storyboard */,
 				E82CBB5727FEEFD5009D2021 /* Info.plist */,
@@ -138,7 +141,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E82CBB4E27FEEFD4009D2021 /* ViewController.swift in Sources */,
+				E82CBB6027FEF6C6009D2021 /* UserActionCell.swift in Sources */,
+				E82CBB5E27FEF116009D2021 /* MainViewController.swift in Sources */,
 				E82CBB4A27FEEFD4009D2021 /* AppDelegate.swift in Sources */,
 				E82CBB4C27FEEFD4009D2021 /* SceneDelegate.swift in Sources */,
 			);
