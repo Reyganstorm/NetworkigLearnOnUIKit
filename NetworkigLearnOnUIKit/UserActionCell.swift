@@ -8,7 +8,11 @@
 import UIKit
 
 class UserActionCell: UICollectionViewCell {
+    
+    private var cell = "cell"
+    
    
     @IBOutlet var userActionLabel: UILabel!
+    
     
 }
